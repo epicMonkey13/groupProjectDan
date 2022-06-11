@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='style.css'>
+  <title>Api Weather App</title>
+</head>
+<body>
+  <header>
+     <!-- hamburger -->
+   <header>
+    <nav class="navbar">
+      <div class="name" id='card'>DRG Group Project</div>
+      <a href="#" id="nav-toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div id="nav-items">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- end of hamburger -->
+  </header>
+  <div class="container">
+<div class="header">
+<h1>What's the Weather?</h1>
+</div>
+<div class="location">
+  Enter the city name to find out the weather today.
+</div>
+<div class="weather-container">
+  <div class="types">
+    <div class="title">Temperature</div>
+    <div class="value">?</div>
+    </div>
+  <div class="types">
+    <div class="title">Rain</div>
+    <div class="value">?</div>
+    </div>
+  <div class="types">
+    <div class="title">Wind</div>
+    <div class="value">?</div>
+</div>
+</div>
+<div class="city-search">
+  <input type='text' class='city' placeholder='Enter City Name'>
+  <button class='btn'>Search</button>
+</div>
+</div>
+</section>
+<!-- G's form in case R will have a different approach :) -->
+<br>
+<form actione="#" id="wrapper">
+  <label for="locInput"></label>
+  <input type="text" placeholder="Type city" id="locInput" />
+  <button id="myBTN">search</button>
+  <div id="results"></div>
+  <p id='wind'></p>
+</form>
+<br>
+<!-- end of G's form in case R will have a different approach :) -->
+<!-- destinations list -->
+<p>If you like the weather, create your potential holdiay destinations here</p>
+<div id='destinations-list-wrapper'>
+  <h1 id='dynamic-destinations-list'> Holiday destinations list</h1>
+  <label for="item">Enter a city name:</label>
+  <input type="text" name="item" id="item">
+  <button id='adding-button'>Add</button>
+</div>
+<ul id='destinations-list'>
+</ul>
+<br>
+<!-- end of destinations list -->
+<!-- polaroid pic -->
+<br><br>
+<div class="polaroid__wrapper">
+  <figure class="polaroid">
+    <img src="https://media4.giphy.com/media/AErExHJVxRbkm5hPkB/giphy.gif?cid=ecf05e47nbnwvqm34vrfj0itjiex7hejjatg8nkw79lchva1&rid=giphy.gif&ct=g" alt="holiday views" class="polaroid__img">
+    <figcaption class="polaroid__caption">Enjoy!</figcaption>
+  </figure>
+  <div class="polaroid__particles">
+  </div>
+</div>
+<!-- end of polaroid pic -->
+  <!-- accordion -->
+  <section class="accordion">
+    <h1>FAQ</h1>
+    <div class="accordion-item">
+      <h3 class="accordion-item-header">FAQ 1</h3>
+      <div class="hide-accordion">
+        <p class="accordion-item-body-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+          ducimus error, aliquam fuga magni ratione fugiat esse in, incidunt
+          dolores optio molestiae excepturi officiis labore exercitationem et
+          obcaecati vero veniam.
+        </p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-item-header">FAQ 2</h3>
+      <div class="hide-accordion">
+        <p class="accordion-item-body-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+          ducimus error, aliquam fuga magni ratione fugiat esse in, incidunt
+          dolores optio molestiae excepturi officiis labore exercitationem et
+          obcaecati vero veniam.
+        </p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-item-header">FAQ 3</h3>
+      <div class="hide-accordion">
+        <p class="accordion-item-body-content">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+          ducimus error, aliquam fuga magni ratione fugiat esse in, incidunt
+          dolores optio molestiae excepturi officiis labore exercitationem et
+          obcaecati vero veniam.
+        </p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- end of accordion -->
+ <script src='app.js'></script> 
+</body>
+</html>
